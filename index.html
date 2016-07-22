@@ -4,11 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Hello Front-End</title>
+  <title>Temperature Converter</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+<div id="max">
+  <h1>Temperature Converter</h1>
+  <input id="textInput" type="text" name="fname" placeholder="- &deg">
+  <br>
+  <div id="radioButtons">
+  	<input id="Fahr" type="radio" name="Fahr" value="F" checked>&degF to &degC
+  	<input id="Celc" type="radio" name="Fahr" value="F">&degC to &degF
+  </div>
 
+  <br>
+
+  <div id="bothSqButtons">
+  	<input id="submitButton" type="submit" value="Submit">
+  	<input id="clearButton" type="submit" value="Clear">
+  </div>
+  <br><br>
+  <div id="result">Result Will Appear Here</div>
   <script type="text/javascript" src="js/script.js"></script>
+  </div>
 </body>
 </html>

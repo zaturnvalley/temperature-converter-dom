@@ -1,3 +1,80 @@
+body{
+	background-image: url("/img/background.jpg");
+	background-color:lightgrey;
+	font-family:'Futura';
+	text-align:center;
+	color:white;
+}
+#max{
+	max-height: 800px;
+	max-width: 1300px;
+}
 h1 {
-  color: blue;
+  color: lightgray;
+  text-align:center;
+  font-size:46px;
+  font-weight:300;
+  text-decoration: underline;
+}
+h4{
+	font-size:30px
+	color: white;
+
+}
+#textInput{
+	margin: 0 auto;
+	border: 1px solid black;
+	height:100px;
+	width:100px;
+	border-radius:100%;
+	font-size:38px;
+	text-align:center;
+	display:block;
+}
+input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 2em;
+}
+#radioButtons{
+	text-align:center;
+}
+#Fahr{
+	width:40px;
+	color:white;
+}
+#Celc{
+	width:40px;
+	color:white;
+}
+#bothSqButtons{
+margin: 0 auto;
+display:block;
+text-align:center;
+}
+#submitButton{
+text-align:center;
+height:40px;
+width:80px;
+font-size:20px;
+box-shadow: 20px;
+font-family:'Futura';
+}
+#clearButton{
+text-align:center;
+margin:0 auto;
+height:40px;
+width:80px;
+font-size:20px;
+}
+#result{
+	background-color:lightgray;
+	margin: 0 auto;
+	height: 120px;
+	width: 980px;
+	color:black;
+	font-size:60px;
+	top:-80px;
+
+
 }
